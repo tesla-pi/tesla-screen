@@ -1,9 +1,9 @@
 gl.setup(1920, 1080)
-local background = resource.load_image("tesla.png")
+local background = resource.load_image("background.png")
 local font = resource.load_font("CaviarDreams_Bold.ttf")
 local ip = resource.load_file("ip.txt")
 local txt_size = 42
-local nodes = {"welcome", "test"}
+local nodes = {"welcome", "vader", "bussar"}
 local node_count = 1
 local timerc = -1
 local timer_init = -1
@@ -87,7 +87,7 @@ function node_choice()
 end
 
 function node.render()
-	gl.clear(0,0,0,0)
+	gl.clear(0,0.1,0.3,0.6)
 	timer_check()
 	draw_node = node_choice()
 	background:draw(0,0,WIDTH, HEIGHT)	
