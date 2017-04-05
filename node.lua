@@ -5,11 +5,13 @@ local ip = resource.load_file("ip.txt")
 local txt_size = 42
 local nodes = {"welcome", "test"}
 local node_count = 1
-local timer = 0
+local timerc = -1
+local timer_init = -1
 local speed = 10
+local sfx_played = 0
 
 function next_node()
-	if node_count > table.getn(nodes) then
+	if node_count >= table.getn(nodes) then
 		node_count = 1
 	else
 		node_count = node_count + 1
@@ -17,15 +19,27 @@ function next_node()
 end
 
 function timer_start()
-	
+	timer_init = tonumber(os.time())
 end
 
 function timer_check()
-
+	if timer_init < 0 then
+		timer_start()
+	end
+	timer_diff()
+	if timerc > speed then
+		next_node()
+		timer_start()
+	end
 end
 
 function timer_diff()
+	timerc = tonumber(os.time()) - timer_init
+end
 
+function play_sound()
+	
+	sfx_played = 1
 end
 
 function minutify(second)
@@ -42,24 +56,39 @@ function node_choice()
 	local standup_start_min = 35
 	local standup_end_hour = 9
 	local standup_end_min = 50
-
-	if os.date("%A") != "Monday" then
-		if standup_start_hour == os.date("%H") and standup_start_min <= os.date("%M") and standup_end_min > os.date("%M") then
+	
+	local hour = tonumber(os.date("%H"))
+	local minute = tonumber(os.date("%M"))
+	
+	if os.date("%A") ~= "Monday" then
+		if standup_start_hour == hour and 
+			standup_start_min <= minute and 
+			standup_end_min > minute
+		then
+			play_sound()
 			return "standup"
 		end
 	else
-		if standup_start_hour == os.date("%H") and (standup_start_min + 15) <= os.date("%M") then
+		if standup_start_hour == hour and 
+			(standup_start_min + 15) <= minute 
+		then
+			play_sound()
 			return "standup"
-		elseif (standup_start_hour + 1) == os.date("%H") and minutify(standup_end_min + 15) > os.date("%M")
+		elseif (standup_start_hour + 1) == hour and 
+			minutify(standup_end_min + 15) > minute 
+		then
+			play_sound()
 			return "standup"
 		end
 	end
-	
+
+	sfx_played = 0
 	return nodes[node_count]
 end
 
 function node.render()
 	gl.clear(0,0,0,0)
+	timer_check()
 	draw_node = node_choice()
 	background:draw(0,0,WIDTH, HEIGHT)	
 	local year = os.date("%Y")
@@ -68,7 +97,7 @@ function node.render()
 	local hour = os.date("%H")
 	local minute = os.date("%M")
 	local second = os.date("%S")
-	local date = year .. "/" .. month .. "/" .. day .. "  " .. hour .. ":" .. minute .. ":" .. second
+	local date = year .. "/" .. month .. "/" .. day .. " " .. hour .. ":" .. minute .. ":" .. second
 	
 	font:write(0, HEIGHT - txt_size, ip , txt_size, 1,1,1,1)
 	font:write(0,0,date, txt_size, 1,0,0,1)
