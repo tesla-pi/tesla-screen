@@ -16,6 +16,6 @@ function node.render()
 	
 	font:write(60,60,"Väder Node", 80, 1, 0, 0, 1)
 
-	L1:draw((WIDTH*0.025), HEIGHT*0.05, (WIDTH*0.60), HEIGHT*0.95)
-	L2:draw((WIDTH*0.40), HEIGHT*0.05, (WIDTH*0.975), HEIGHT*0.95)
+	L1:draw((WIDTH*0.025), HEIGHT*0.02, (WIDTH*0.51), HEIGHT*0.98)
+	L2:draw((WIDTH*0.49), HEIGHT*0.02, (WIDTH*0.975), HEIGHT*0.98)
 end

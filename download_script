@@ -6,19 +6,20 @@ do
 	echo "Downloading!"
 	xvfb-run cutycapt --url="http://www.vasttrafik.se/nasta-tur-fullskarm/?externalid=9021014004490000&friendlyname=Lindholmen+G%C3%B6teborg/" --out="lindholmen.png"
 	xvfb-run cutycapt --url="http://www.vasttrafik.se/nasta-tur-fullskarm/?externalid=9021014004493000&friendlyname=Lindholmspiren+G%C3%B6teborg/" --out="lindholmspiren.png"
-	wget "https://www.yr.no/sted/Sverige/V%C3%A4stra_G%C3%B6taland/G%C3%B6teborg/varsel.pdf" -O vader.pdf
+	wget "https://www.yr.no/sted/Sverige/V%C3%A4stra_G%C3%B6taland/G%C3%B6teborg/varsel.pdf" -O ./vader.pdf
 	convert           \
 	   -verbose       \
 	      -density 150   \
 		     -trim          \
-			     vader.pdf      \
+			     ./vader.pdf      \
 				    -quality 100   \
 					   -flatten       \
 					      -sharpen 0x1.0 \
-						      vader.png
-	mv vader.png ./vader/
-	mv lindholmen.png ./bussar/
-	mv lindholmspiren.png ./bussar/
+						      ./vader.png
+	mv vader.png /home/pi/info-beamer/tesla-screen/vader/
+	mv lindholmen.png /home/pi/info-beamer/tesla-screen/bussar/
+	mv lindholmspiren.png /home/pi/info-beamer/tesla-screen/bussar/
+	echo "$(hostname -I)" > /home/pi/info-beamer/tesla-screen/ip.txt
 	echo "Finished!"
 	sleep 300
 done

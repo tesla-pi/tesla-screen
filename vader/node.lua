@@ -10,7 +10,7 @@ node.event("content_update", function(filename, file)
 end)
 
 function node.render()
-	font:write(60,60,"Väder Node", 80, 1, 0, 0, 1)
+	--font:write(60,60,"Väder Node", 80, 1, 0, 0, 1)
 
 	img:draw((WIDTH*0.15), 0, (WIDTH*0.85), HEIGHT*1.8)
 end

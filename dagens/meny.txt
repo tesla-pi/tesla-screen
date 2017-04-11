@@ -1,0 +1,2 @@
+{"Restaurang A", "Maträtt", "Beskrivning", "Pris"}
+{"Restaurang B", "Maträtt B", "Beskrivning B", "Pris B"}
