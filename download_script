@@ -20,6 +20,7 @@ do
 	mv lindholmen.png /home/pi/info-beamer/tesla-screen/bussar/
 	mv lindholmspiren.png /home/pi/info-beamer/tesla-screen/bussar/
 	echo "$(hostname -I)" > /home/pi/info-beamer/tesla-screen/ip.txt
+	sh /home/pi/info-beamer/tesla-screen/html_to_file
 	echo "Finished!"
 	sleep 120
 done
