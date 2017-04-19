@@ -21,5 +21,5 @@ do
 	mv lindholmspiren.png /home/pi/info-beamer/tesla-screen/bussar/
 	echo "$(hostname -I)" > /home/pi/info-beamer/tesla-screen/ip.txt
 	echo "Finished!"
-	sleep 300
+	sleep 120
 done

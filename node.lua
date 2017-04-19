@@ -3,7 +3,7 @@ local background = resource.load_image("background.png")
 local font = resource.load_font("CaviarDreams_Bold.ttf")
 local ip = resource.load_file("ip.txt")
 local txt_size = 42
-local nodes = {"welcome", "vader", "bussar", "dagens"}
+local nodes = {"welcome", "vader", "bussar"}
 local node_count = 1
 local timerc = -1
 local timer_init = -1
@@ -65,9 +65,7 @@ function node_choice()
 	local hour = tonumber(os.date("%H"))
 	local minute = tonumber(os.date("%M"))
 	
-	if true then
-		return "dagens"
-	end
+	--if true then return "dagens" end
 
 	if os.date("%A") ~= "Monday" then
 		if standup_start_hour == hour and 

@@ -29,3 +29,6 @@ while x < #set do
 end
 
 file:close()
+
+print(set[1][1])
+print(set[1][2])

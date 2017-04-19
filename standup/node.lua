@@ -6,5 +6,5 @@ function node.render()
 	gl.clear(0.5, 0, 1, 0.3)
 	
 	font:write(0,0, date, 80, 1,1,0,1)
-	font:write(HEIGHT/2,300,"*ahem* Standup!", 100, 1, 1, 0, 1)
+	font:write(HEIGHT/2,300,"Standup!", 128, 1, 1, 0, 1)
 end
