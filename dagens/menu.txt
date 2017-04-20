@@ -1,11 +1,11 @@
 Bistrot
-Halstrad kummelfilé  serveras med creme ninon samt ljummen vårig potatissallad och citronskiva
+Stekt sejfilé,  serveras med vitvinsparmesansås samt spenat- och basilikaslungad potatis och citronklyfta
 90kr
 Fisk
 Bistrot
-Kycklingstek ”Provesal”  fylld med vitlök och örter, serveras med potatisgratäng och soltorkadtomatsky samt skottsallad
+Texas ribbs,  serveras med chipotleglace, majskolv samt bakad potatis fylld med svartpeppar creme fraiche
 90kr
-Kyckling
+Kött
 Bistrot
 Veckans Husman:  Pytt Bellman. Gräddstuvad pytt serveras med saltgurka, rödbetor och hackad persilja
 95kr
@@ -19,10 +19,6 @@ Veckans Sallad:  Bistrots Ceasarsallad med kyckling, krutonger, dressing, bacon 
 90kr
 Kyckling
 Cuckoo's Nest
-Cajungrillad kycklingfilé  med het tomat & mangosalsa samt kokoskokt basmatiris
-110kr
-Kyckling
-Cuckoo's Nest
 Grillad flank  med lime och vitlök, potatiskompott & whiskeysky
 205kr
 Kött
@@ -34,6 +30,10 @@ Cuckoo's Nest
 Indisk linsgryta  med kokosgrädde, raitacreme & grönsaker 
 110kr
 Vegetariskt
+Cuckoo's Nest
+Ångad kolja  med saffran, musselbuljong, grönärtsrisotto & fänkålschips
+110kr
+Fisk
 Fika By Sigma
  South East Noodle Bowl   Asiatiskt picklade grönsaker, risnudlar, eko koriander, jordnötter. Skakas tillsammans med vår sriracha mayo och sesam vinägrett Rostbiff /Räkor  
 89kr
@@ -51,19 +51,19 @@ Wraps  Krämig potatis sallad på Franskt vis, rostad lök, fräsch sallad  Väl
 79kr
 Övrigt
 Kooperativet
-Balti Chicken – indisk kycklinggryta med linser, serveras med basmatiris, het mangokräm samt papadums
+Blomkål Korma  – indisk gryta med garam masala, blomkål, linser & bönor, serveras med basmatiris, chapatibröd & yoghurt
 90kr
-Kyckling
-Kooperativet
-Biff Szechuan  – wokade grönsaker med biff i szechuan- & sojasås, serveras med jasminris samt färsk koriander
-90kr
-Kött
+Övrigt
 Kooperativet
 Caesarsallad  – romansallad med kyckling & bacon, serveras med caesardressing, riven grana padano samt krutonger
 90kr
 Kyckling
 Kooperativet
 Caesarsallad  – romansallad med kyckling & bacon, serveras med caesardressing, riven grana padano samt krutonger
+90kr
+Kyckling
+Kooperativet
+Chicken Korma  – indisk kycklinggryta med garam masala, linser & bönor, serveras med basmatiris, chapatibröd & yoghurt
 90kr
 Kyckling
 Kooperativet
@@ -75,27 +75,23 @@ Falafalsallad  – mixad sallad med falafel, fetaost, grillad paprika & syrad r�
 90kr
 Vegetariskt
 Kooperativet
-Kokt torsk  med stenbitrom kräm, serveras med dill & persiljeslungad potatis
-90kr
-Fisk
-Kooperativet
-Kooperativets Klassiska Lasagne  på nötfärs, serveras med tomat- & rödlökssallad samt riven grana padano
+Kooperativets Kebab i bröd  – Libabröd fylld med blandsallad, tomat, gurka & kebabkött, serveras med kebabsås & fefferoni
 90kr
 Kött
-Kooperativet
-Kooperativets Vegetariska Lasagne  på keso & spenat, serveras med tomat- & rödlökssallad samt riven grana padano
-90kr
-Vegetariskt
 Kooperativet
 Mexicansk Tacosallad  – mixad sallad med stekt nötfärs, majs & jalapeños, toppas med riven ost & nachoflakes samt kryddig gräddfil & het salsa
 90kr
 Kött
 Kooperativet
-Pannbiff  med karamelliserad lök & rödvinssky serveras med potatispuré & lingonsylt
+Nattbakad pepparstek  med gräslök- & rosépepparsås, serveras med rostad kulpotatis
 90kr
 Kött
-L`s Kitchen
-Bakad sej  med smörstekt sommarkål, potatis- och pepparrotspuré
+Kooperativet
+Red pork steambuns  – marinerad fläskkarré i steam bun med hoisinsås, sallad på vårlök, morot & vitkål, serveras med nudelsallad
+90kr
+Kött
+Kooperativet
+Stekt panerad sejfilé  med dansk remouladsås serveras med krossad potatis & citron
 90kr
 Fisk
 L`s Kitchen
@@ -103,81 +99,93 @@ Caesarsallad  med kyckling, grana padano samt bacon
 90kr
 Kyckling
 L`s Kitchen
-Grönsallad med mjukbakat ägg,  sparris, ramslöksdressing samt rostad mandel
+Fiskfärsbiff  med rökt lax, romsås samt färskpotatis
+90kr
+Fisk
+L`s Kitchen
+Gratinerad blomkålslåda  med pasta, zucchini samt majssalsa
 90kr
 Vegetariskt
 L`s Kitchen
-Kryddig färsbiff  med couscoussallad, granatäpple samt yoghurt
+Indisk kyckling  med raita, picklad aubergine samt jasminris
+90kr
+Kyckling
+L`s Kitchen
+Sallad med salami,  risoni, pecorino, citronmarinerade tomater samt basilikavinägrett
 90kr
 Kött
-L`s Kitchen
-Vegetarisk paj  med svamp, tomat, lök samt paprika
-90kr
-Vegetariskt
 L`s Resto
-Grönsaks- och fetaostslasagne  med syltad rödlök
+Grillad halloumi  med grönsaksrisotto och karljohansvampolja
 145kr
 Vegetariskt
 L`s Resto
-Laxburgare  med skaldjursmajonnäs, brioche samt citron
+Långbakad fläsksida  med kummincrème och spetskål
 145kr
-Fisk
+Kött
 L`s Resto
-Örtmarinerad majskyckling  med rotfruktsbuljong och tryffelmajonnäs
+Ramslöksbakad sejfilé  med brynta champinjoner och skaldjursskum
 145kr
-Kyckling
-L´s Express
-Bakad sej  med smörstekt sommarkål samt potatis- och pepparrotspuré
-80kr
 Fisk
 L´s Express
 Caesarsallad  med kyckling, grana padano och bacon
 80kr
 Kyckling
 L´s Express
-Grönsallad med mjukbakat ägg,  sparris, ramslöksdressing samt rostad mandel
+Fiskfärsbiff  med rökt lax, romsås samt färskpotatis
+80kr
+Fisk
+L´s Express
+Gratinerad blomkålslåda  med pasta, zucchini samt majssalsa
 80kr
 Vegetariskt
 L´s Express
-Kryddig färsbiff  med couscoussallad, granatäpple samt yoghurt
+Indisk kyckling  med raita, picklad aubergine och jasminris
+80kr
+Kyckling
+L´s Express
+Sallad med salami,  risoni, pecorino, citronmarinerade tomater samt basilikavinägrett
 80kr
 Kött
-L´s Express
-Vegetarisk paj  med svamp, tomat, lök samt paprika
-80kr
-Fisk
 Lindholmens Matsal
-Kycklingfilé ”saltimbocca”  fylld med Parmaskinka och salvia. 			Serveras med Parmesankryddad potatis och marsalasås
+ Pannbiff  med stekt lök, skysås, inlagd gurka och persiljestekt potatis
 85kr
-Kyckling
-Lindholmens Matsal
-Stekt färsk fångst  från havet med krämig gubbröra och pressad potatis
-85kr
-Fisk
-Lindholmens Matsal
-Veckans sallad Kallrökt lax med kokt ägg, krämig potatissallad, sockerärtor och hovmästarsås
-85kr
-Övrigt
+Kött
 Lindholmens Matsal
 Veckans sallad Rökt Hjortstek med lingoncréme, lagrad ost och sellerisallad med pepparrot
 85kr
 Övrigt
 Lindholmens Matsal
-Veckans vegetariska Quesadillas med klyftpotatis, chipotlesås och bönsallad
+Veckans sallad Kallrökt lax med kokt ägg, krämig potatissallad, sockerärtor och hovmästarsås
+85kr
+Övrigt
+Lindholmens Matsal
+Veckans vegetariska  Indisk currygryta med rotsaker, kikärtor, ris och raitayoghurt
 85kr
 Vegetariskt
+Lindholmens Matsal
+Vinångad Torskfilé  med nyriven pepparrot och brynt smör 
+85kr
+Fisk
+Lindholmens Matsal
+Ärtsoppa  med klassiska tillbehör
+85kr
+Övrigt
 Matminnen
 Asiatisk soppa  med curry, ingefära, vitlök, kokosmjölk & koriander
 83kr
 Vegetariskt
 Matminnen
-Escabeche marinerad koljafilé  med rostad mandel, paprikacitronette & sötpotatis
+Fisk & skaldjursgryta toppad med basilika, aioli & surdegskrutonger
 83kr
 Fisk
 Matminnen
-Flygande Jakob med chili, bacon, banan, jordnötter, grädde & ris
+Kokt oxbringa  med syltade rotfrukter, senapssky & potatismos
 83kr
-Kyckling
+Kött
+Matminnen
+Panerad sejfilé  med ägg, kapris & pepparrotsmajonnäs samt dillkokt potatis
+83kr
+Fisk
 Matminnen
 Veckans sallad; Sallad med getost, rödbetor, honung, pumpafrön & smörstekt toast
 83kr
@@ -187,102 +195,110 @@ Veckans vegetariska  Risotto med rostat matvete, tomater, oliver, råhyvlad broc
 83kr
 Vegetariskt
 Mimolett
-Cordon bleu  med tärnad chilipotatis och kantarellsås
+ Högrevsgryta med chorizo och potatismos samt picklade betor
 99kr
 Kött
 Mimolett
-Grillad majskycklingfilé  serveras med ris, ananaschutney och currysås
+Serranolindad torskfilé  med spenat samt vinägrett på tomat, oliver, kapris och kokt potatis
 99kr
-Kyckling
-Mimolett
-Grillad majskycklingfilé  serveras med ris, ananaschutney och currysås
-99kr
-Kyckling
+Fisk
 Picadeli
-Kyckling Tandoori Pris: 12,90 kr/hg
+Kycklingfilé med chili och koriander Pris: 12,90 kr/hg
 0kr
 Kyckling
 Picadeli
-Laxfilé i mangomarinad Pris: 12,90 kr/hg
+Pulled Pork Pris: 12,90 kr/hg
 0kr
-Fisk
-Pir 11
-Dillbakad sejfilé  med västerbottenpuré och vitvinssås
-75kr
-Fisk
+Kött
 Pir 11
 Fish ´n chips  med remouladsås
 89kr
 Fisk
 Pir 11
-Fläsknoisette  med ugnsbakad tomat serveras med choronsås och vitlökspotatis
-89kr
-Kött
-Pir 11
-Grönsaksbiff  med citronpepparsås och kokt potatis
+Kinesisk gryta  med strimlad fläskbog och bambuskott serveras med jasminris
 75kr
-Vegetariskt
+Fisk
 Pir 11
-Kycklinggryta tikka masala  med basmatiris
+Pastagratäng  med grädde och bacon toppad med purjo och Grana Padano
 75kr
-Kyckling
+Pasta
 Pir 11
 Pir 11:as Salladsbuffé  Pris: 15:50kr/hg
 0kr
 Vegetariskt
+Pir 11
+Rotfruktsgratäng  med picklade betor
+75kr
+Vegetariskt
+Pir 11
+Smörstekt kapkummel  med musselsky och gräslöksstomp
+89kr
+Fisk
 Restaurang Gothia
-Grovrågstekt stekt koljafilé  på persilja & vitlök stekta grönsaker, mynta & basilikacréme, serveras med purjolökvändpotatis
+Husets Fisksoppa  med 2 sorters fisk, toppad med skaldjur och dill /G
 80kr
 Fisk
 Restaurang Gothia
-Husets pulled pork  med barbecuesås, chipotle majonnäs och klyftpotatis /G /L
+Husets Gulaschsoppa  /G /L med pannkakor och grädde
+80kr
+Övrigt
+Restaurang Gothia
+Husets ärtsoppa  med senap och pannkakor /G/L
+80kr
+Övrigt
+Restaurang Gothia
+Italiensk citronkyckling  toppad med gran gusto, ruccola och persilje stompad potatis /G
+80kr
+Kyckling
+Restaurang Gothia
+Tagliatelle med strimlad fläskfilé  dragon, vitvin och nyriven gran gusto
 80kr
 Kött
-Restaurang Gothia
-spaghetti med köttfärs  sidfläsk, chili och nyriven gran gusto
-80kr
-Pasta
-Restaurang Äran
-Clone of Kantarellsoppa  med krutonger
-78kr
-Vegetariskt
 Restaurang Äran
 Dagens Pastabuffe  ät så mycket du vill
 83kr
 Pasta
 Restaurang Äran
-Kantarellsoppa  med krutonger
-78kr
-Vegetariskt
-Restaurang Äran
-Kycklingnoisette  med citrussås, ärtor och smörad gräslökspotatis
-88kr
-Kyckling
-Restaurang Äran
-Laxfylld spättaroulad  med vitvinsås och kokt potatis
+Hummersoppa med purjolök därefter pannkaka med sylt och grädde
 88kr
 Fisk
+Restaurang Äran
+Oxrullader  med saltgurka, gräddsås, gele och persiljepotatis 
+88kr
+Kött
+Restaurang Äran
+Spansk tomatsoppa 
+78kr
+Vegetariskt
 Restaurang Äran
 Tacokryddad kycklingfile  med het tomatsås och basmatiris
 88kr
 Kyckling
 Restaurang Äran
-Vegetariska färsbullar  med tomatsås och ris
+Vegetariska vårrullar  med sweetchilisås och grönsaksris
 88kr
 Vegetariskt
+Restaurang Äran
+Ärtsoppa med fläsk och korv  därefter pannkaka med sylt och grädde
+88kr
+Kött
 Sweet and sour
-- Havets wallenbergare  med vitvinssås, serveras med gröna ärtor och potatispure.
+ Wallenbergare  med äpplegräddsås och rårörda lingon, serveras med potatispure samt pressgurka.
 85kr
-Fisk
-Sweet and sour
--(Pad Thai) Wokade risnudlar med kyckling  grönsaker, chilli, lime, nötter och ägg.
-85kr
-Kyckling
+Kött
 Sweet and sour
 Ceasarsallad  med grillad kyckling, grana padano, romansallad, bacon, brödkrutonger samt husets ceasardressing.
 85kr
 Kyckling
 Sweet and sour
-Texas chili gryta  på högrev, serveras med ris, gräddfil, tortillabröd och ruccolasallad.
+Husets pannkakor  – 2st pannkakor med sylt och grädde ingår till alla rätter!
+0kr
+Övrigt
+Sweet and sour
+Stekt koljafile  med citron och pepparrotssmör, serveras med en sallad på gurka och kokt potatis.
 85kr
-Kött
+Fisk
+Sweet and sour
+Wokade grönsaker med kyckling  i sötsursås serveras med jasminris.
+85kr
+Kyckling

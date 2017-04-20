@@ -36,7 +36,12 @@ function timer_check()
 		timer_start()
 	end
 	timer_diff()
-	if timerc > speed then
+	if node_choice() == "dagens" then
+		if timerc > speed*4 then
+			next_node()
+			timer_start()
+		end
+	elseif timerc > speed then
 		next_node()
 		timer_start()
 	end

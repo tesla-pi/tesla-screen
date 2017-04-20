@@ -4,8 +4,13 @@ local txt_size = 40
 local meny = resource.load_file("menu.txt")
 local box_width = 28
 local offset_y = 200
-local scroll_start = 200
+local scroll_start = HEIGHT + 200
 local scroll_end = 0
+local scroll_speed = 60
+local scrolling = false
+local start_time = -1
+local current_time = -1
+
 node.event("content_update", function(filename, file)
 	if filename == "menu.txt" then
 		meny = resource.load_file("menu.txt")
@@ -131,15 +136,40 @@ end
 
 --Function to scroll the text over time
 function scroll()
-	
+	if scrolling == false then
+		offset_y = scroll_start 
+		scrolling = true
+		start_timer()
+	else
+		offset_y = ((scroll_end/scroll_speed) * timer_diff()) + scroll_start
+	end
+end
+
+function start_timer()
+	start_time = tonumber(os.time())
+end
+
+function timer_diff()
+	current_time = tonumber(os.time()) - start_time
+	return current_time
+end
+
+function timer_check()
+	if current_time > scroll_speed then
+		start_time = -1
+		scrolling = false
+		current_time = -1
+	end
 end
 
 --Set the end-offset
 function set_end(count)
-	scroll_end = -(count * 55)
+	scroll_end = -(count * 55) - HEIGHT - 500
 end
 
 function node.render()
-	gl.clear(0.2,0.2,0.2,0.4)
+	gl.clear(0.6,0.2,0.2,0.6)
 	group_and_render(meny)
+	scroll()
+	timer_check()
 end
