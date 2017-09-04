@@ -1,6 +1,11 @@
 #!/bin/sh
 echo "Download script activate"
 
+sh /home/pi/info-beamer/tesla-screen/dl_per_min 2>&1 &
+sh /home/pi/info-beamer/tesla-screen/dl_per_hour 2>&1 &
+
+echo "Scripts activated"
+: '
 while true
 do
 	echo "Downloading!"
@@ -23,4 +28,4 @@ do
 	sh /home/pi/info-beamer/tesla-screen/dagens/html_to_file
 	echo "Finished!"
 	sleep 120
-done
+done'

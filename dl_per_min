@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "Downlod these once per minute"
+
+while true
+do
+	echo "Downloading!"
+	xvfb-run -a cutycapt --url="http://www.vasttrafik.se/nasta-tur-fullskarm/?externalid=9021014004490000&friendlyname=Lindholmen+G%C3%B6teborg/" --out="lindholmen.png"
+	xvfb-run -a cutycapt --url="http://www.vasttrafik.se/nasta-tur-fullskarm/?externalid=9021014004493000&friendlyname=Lindholmspiren+G%C3%B6teborg/" --out="lindholmspiren.png"
+	mv lindholmen.png /home/pi/info-beamer/tesla-screen/bussar/
+	mv lindholmspiren.png /home/pi/info-beamer/tesla-screen/bussar/
+	echo "$(hostname -I)" > /home/pi/info-beamer/tesla-screen/ip.txt
+	echo "Finished!"
+	sleep 60
+done

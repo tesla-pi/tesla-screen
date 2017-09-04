@@ -3,7 +3,7 @@ local font = resource.load_font("CaviarDreams_Bold.ttf")
 local txt_size = 40
 local meny = resource.load_file("menu.txt")
 local box_width = 28
-local offset_y = 200
+local offset_y = 200 + HEIGHT
 local scroll_start = HEIGHT + 200
 local scroll_end = 0
 local scroll_speed = 60
@@ -99,7 +99,7 @@ function draw_box(x, y, name, price, type_name)
 		if not type_name then
 			type_name = "UNKNOWN"
 		end
-		font:write(x, y + offset_y, name:sub(1, box_width*1.5), txt_size, 1,1,1,1)
+		font:write(x, y + offset_y + txt_size, name:sub(1, box_width*1.5), txt_size, 1,1,1,1)
 	
 		local r = 1
 		local g = 1
@@ -116,12 +116,12 @@ function draw_box(x, y, name, price, type_name)
 		elseif type_name == "Pasta" or type_name == "pasta" then
 			r,g,b = 1, 1, 0.2
 		elseif type_name == "Kyckling" or type_name == "kyckling" then
-			r,g,b = 1, 0.8, 0.6
+			r,g,b = 0, 0.8, 0.8
 		else
 			r,g,b = 1, 1, 0
 		end
-		font:write(x, y + txt_size + offset_y, type_name:sub(1, (box_width/2)), txt_size, r, g, b, a)
-		font:write(x + (txt_size *(box_width / 2)+124 ), y + txt_size + offset_y, price, txt_size, 0,1,1,1)
+		font:write(x, y + offset_y, type_name:sub(1, (box_width/2)), txt_size, r, g, b, a)
+		font:write(x + (txt_size *(box_width / 2)+124 ), y  + offset_y, price, txt_size, 0,1,1,1)
 	end
 end
 

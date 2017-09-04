@@ -73,7 +73,7 @@ function node_choice()
 	local minute = tonumber(os.date("%M"))
 	
 	--if true then return "dagens" end
-
+	
 	if os.date("%A") ~= "Monday" then
 		if standup_start_hour == hour and 
 			standup_start_min <= minute and 
@@ -92,6 +92,13 @@ function node_choice()
 			return "standup"
 		end
 	end
+	if hour >= 13 and nodes[node_count] == "dagens" then
+		next_node()
+	end
+	if os.date("%A") == "Friday" and hour == 14 then
+		return "cozy"
+	end
+
 	return nodes[node_count]
 end
 
