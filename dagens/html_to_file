@@ -1,4 +1,6 @@
 #!/bin/bash
 #Overwrites menu.txt and starts scraper.py, writing the output to menu.txt
 touch menu.txt
-./scraper.py > menu.txt 2>&1
+DIR="$( readlink -f "$( dirname "${BASH_SOURCE[0]}" )")"
+
+$DIR/scraper.py > menu.txt 2>&1

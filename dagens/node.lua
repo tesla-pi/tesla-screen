@@ -1,6 +1,6 @@
 gl.setup(1920, 1080)
 local font = resource.load_font("CaviarDreams_Bold.ttf")
-local txt_size = 40
+local txt_size = 30
 local meny = resource.load_file("menu.txt")
 local box_width = 28
 local offset_y = 200 + HEIGHT

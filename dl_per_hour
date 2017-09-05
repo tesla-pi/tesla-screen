@@ -1,8 +1,7 @@
 #!/bin/sh
 echo "Download once per hour"
 
-while true
-do
+while true; do
 	echo "Downloading!"
 	wget "https://www.yr.no/sted/Sverige/V%C3%A4stra_G%C3%B6taland/G%C3%B6teborg/varsel.pdf" -O ./vader.pdf
 	convert           \
@@ -15,7 +14,7 @@ do
 					      -sharpen 0x1.0 \
 						      ./vader.png
 	mv vader.png /home/pi/info-beamer/tesla-screen/vader/
-	sh /home/pi/info-beamer/tesla-screen/dagens/html_to_file
+	$(/home/pi/info-beamer/tesla-screen/dagens/html_to_file)
 	mv menu.txt /home/pi/info-beamer/tesla-screen/dagens/
 	echo "Finished!"
 	sleep 3540
