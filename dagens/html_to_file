@@ -3,4 +3,4 @@
 touch menu.txt
 DIR="$( readlink -f "$( dirname "${BASH_SOURCE[0]}" )")"
 
-$DIR/scraper.py > menu.txt 2>&1
+python3 $DIR/scraper.py > menu.txt 2>&1

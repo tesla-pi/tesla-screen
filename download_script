@@ -1,5 +1,5 @@
 #!/bin/sh
 echo "Download script activate"
 
-sh /home/pi/info-beamer/tesla-screen/dl_per_min 2>&1 &
-sh /home/pi/info-beamer/tesla-screen/dl_per_hour 2>&1 &
+sh ./dl_per_min 2>&1 &
+sh ./dl_per_hour 2>&1 &
